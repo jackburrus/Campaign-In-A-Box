@@ -1,0 +1,40 @@
+type Supporter @model {
+  id: ID!
+  email: String!
+  zip: String!
+}
+
+type Issue @model {
+  id: ID!
+  category: String!
+  snippet: String
+  position: String
+  detailedPosition: String
+  tags: [String]
+  image: String
+}
+
+type Event @model {
+  id: ID!
+  eventName: String!
+  date: String
+  time: String
+  location: String
+  summary: String
+  image: String
+  registration: EventRegistration @connection(name:"Event")
+}
+
+type EventRegistration @model {
+  id: ID!
+  email: String
+  event: Event @connection(name: "Event")
+}
+
+type ContactMessage @model {
+  id: ID!
+  email: String
+  firstName: String
+  lastName: String
+  message: String
+}

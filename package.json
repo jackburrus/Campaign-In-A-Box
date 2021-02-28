@@ -1,0 +1,63 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo-google-fonts/lato": "^0.1.0",
+    "@expo-google-fonts/source-sans-pro": "^0.1.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/netinfo": "5.9.7",
+    "@react-navigation/material-bottom-tabs": "^5.3.13",
+    "@react-navigation/material-top-tabs": "^5.3.13",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.2",
+    "@shopify/restyle": "^1.4.0",
+    "aws-amplify": "^3.3.20",
+    "aws-amplify-react-native": "^4.3.1",
+    "eslint": "^7.20.0",
+    "expo": "~40.0.0",
+    "expo-app-loading": "^1.0.1",
+    "expo-clipboard": "~1.0.1",
+    "expo-constants": "~9.3.3",
+    "expo-file-system": "~9.3.0",
+    "expo-status-bar": "~1.0.3",
+    "expo-stripe-checkout": "^1.0.1",
+    "modal-react-native-web": "^0.2.0",
+    "moti": "^0.4.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-expo-cached-image": "^1.3.1",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-paper": "^4.7.1",
+    "react-native-reanimated": "2.0.0-rc.0",
+    "react-native-redash": "^16.0.8",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-screens": "~2.15.2",
+    "react-native-stripe-checkout-webview": "^0.0.9",
+    "react-native-svg": "12.1.0",
+    "react-native-tab-view": "^2.15.2",
+    "react-native-web": "~0.13.12",
+    "react-native-web-hooks": "^3.0.1",
+    "react-native-webview": "^11.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@expo/webpack-config": "^0.12.59",
+    "@types/react": "~16.9.35",
+    "@types/react-dom": "~16.9.8",
+    "@types/react-native": "~0.63.2",
+    "eslint-config-react-native-wcandillon": "^3.4.0",
+    "typescript": "~4.0.0"
+  },
+  "resolutions": {
+    "react-native-safe-area-view": "^2.0.0"
+  },
+  "private": true
+}

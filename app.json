@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Campaign-In-A-Box",
+    "slug": "Campaign-In-A-Box",
+    "privacy": "unlisted",
+    "version": "1.0.0",
+    "icon": "./assets/Icon_1024.png",
+    "backgroundColor": "#0B406B",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B406B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/Seal.png"
+    }
+  }
+}
