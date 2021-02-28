@@ -6,6 +6,8 @@ Campaign In A Box is a ready to deploy app template intended for bootstrapped po
 
 This is app is built with [Expo](https://docs.expo.io/), [React Native](https://reactnative.dev/), and [AWS Amplify](https://docs.amplify.aws/).
 
+[Demo](https://dev.d2be1ziy4f135g.amplifyapp.com/)
+
 ## Features
 
 💻 Ready to deploy Serverless backend. 
