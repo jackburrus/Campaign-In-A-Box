@@ -4,7 +4,7 @@
 
 Campaign In A Box ready to deploy app template intended for bootstrapped political campaigns to spin up a campaign website that works on ios, android, and the web! I want to provide campaigns with modest budgets an easy way to get their ideas and message out there. With a little bit of Javascript knowledge and an AWS account, political hopefuls can keep their supporters up to date on upcoming events, and their vision for the direction of the country, all from a single codebase. 
 
-This is app is built with [Expo](https://docs.expo.io/) and [React Native](https://reactnative.dev/).
+This is app is built with [Expo](https://docs.expo.io/), [React Native](https://reactnative.dev/), and [AWS Amplify](https://docs.amplify.aws/).
 
 ## Features
 
