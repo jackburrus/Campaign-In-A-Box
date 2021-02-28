@@ -20,7 +20,6 @@ This is app is built with [Expo](https://docs.expo.io/) and [React Native](https
 
 ## Deploy the back end and run the app
 
----
 
 1. Clone the repo, install dependencies.
 
@@ -61,7 +60,6 @@ This is app is built with [Expo](https://docs.expo.io/) and [React Native](https
 
 ## Populate database
 
----
 
 1. Open the AppSync console.
 
@@ -114,13 +112,11 @@ This is app is built with [Expo](https://docs.expo.io/) and [React Native](https
 
 ## To customize with your theme.
 
----
 
 This app uses [Restyle](https://github.com/Shopify/restyle) for its styles and theme customization. You can find the file under `src/theme/Theme`
 
 ## Customization
 
----
 
 Change the schema under `amplify/backend/api/{YOUR_APP_NAME}/schema.graphql`
 
@@ -132,6 +128,5 @@ Redeploy to Amplify
 
 ## Contributing
 
----
 
 If you like this idea and want to contribute to the code, i'd be happy to review pull requests. I want to make sure this project is always easy and cheap to run, so campaigns with modest budgets can always have access. If you have ideas on how to achieve this goal, i'd love to hear them!
